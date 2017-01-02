@@ -11,3 +11,13 @@ array,and returns the lastt element in that array.
 */
 
 // YOUR CODE GOES HERE
+function first(colors) {
+    return colors[0];
+}
+function last(value) {
+    return value[value.length - 1];
+}
+
+var colors = ['red', 'green', 'blue'];
+console.log(first(colors));
+console.log(last(colors));
